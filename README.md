@@ -4,8 +4,7 @@
 
 
 This is the code for the paper:
-[Learning from Noisy Pairwise Similarity and Unlabeled Data](https://www.jmlr.org/papers/volume23/21-0946/21-0946.pdf).
-
+[Learning from Noisy Pairwise Similarity and Unlabeled Data](https://www.jmlr.org/papers/volume23/21-0946/21-0946.pdf).  
 Songhua Wu, Tongliang Liu, Bo Han, Jun Yu, Gang Niu, and Masashi Sugiyama.
 
 
@@ -40,8 +39,6 @@ Here is an example:
 
 ```bash
 python3 sudeep.py --mpe 4000 --ns 4000 --nu 2000 --prior 0.7 --noise 0.2 --seed 3 --dataset australian --p 1 --gpu 1
-
-
 
 python3 sulearning.py --mpe 4000 --ns 4000 --nu 2000 --prior 0.7 --noise 0.2 --seed 3 --full --dataset australian --p 0
 ```
